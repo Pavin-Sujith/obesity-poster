@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: darkslategray;
+}
+#maincontent {
+    max-width: 1150px;
+    margin: 0px auto;
+}
+#hlogo {
+    background: skyblue;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategray;
+}
+#oblogo {
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;    
+}
+#header {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+    color: tomato;
+    /* position: absolute; */
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: white;
+    /* position: absolute;
+    top: 74px;
+    left: 3px; */
+
+}
+#headings {
+    /* position: relative; */
+    line-height: 59px;
+    padding: 10px 0px;
+}
+.dlayout{
+    display: flex;
+}
+.left {
+    
+    width: 50%;
+    height:600px;
+}
+.right {
+    
+    width: 50%;
+    height:600px;
+}
+.left1 {
+    background-color: orange;
+    justify-content: center;
+}
+.right1 {
+    background-color:deepskyblue;
+    position: relative;
+}
+.ntext{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+}
+.btext {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 60px;
+}
+.mtext {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+.text {
+    color: white;
+    text-align: center;
+}
+.childicon {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.childicon > li {
+    margin: 0px 20px;
+    font-size: 25px;
+}
+.secleft1 {
+    text-align: center;
+    width: 100%;
+    padding: 85px 3px 5px 0px;
+}
+.secright1 {
+    text-align: center;
+    width: 100%;
+    padding: 85px 3px 5px 0px;
+}
+.right1 > i {
+    font-size: 70px;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+.sec2 {
+    background-color: tomato;
+    width: 100%;
+    height: 400px;
+    
+}
+.sec2 {
+    text-align: left;
+    /* justify-content: left; */
+    
+}
+.sec2list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    
+}
+.sec2list > i {
+    font-size: 50px;
+}
+.sec2table {
+    width: 100%;
+    padding: 40px 0px;
+}
+.sec2list > li {
+    margin: 0px 30px;
+}
+.sec3 {
+    width: 100%;
+    height: 460px;
+    background-color: deepskyblue;  
+}
+.sec3table {
+    padding: 50px 50px;
+    width: 100%;
+}
+#shildlogo {
+    position: absolute;
+    left: 520px;
+    top: 1398px;
+}
+.sec4left {
+    background-color: tomato;
+}
+.sec4right {
+    background-color: orange;
+}
+#pizza{
+    font-size: 160px;
+    color: orange;
+    
+}
+#pizzalogo {
+    position: relative;
+    text-align: center;
+}
+.parsec4left {
+    margin: 70px auto;
+}
+#bottlelogo {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#bottle {
+    font-size: 160px;
+    color: tomato;
+}
+#parsec4right {
+    text-align: center;
+}
+.sbox{
+    width: 100%;
+    height: 300px;
+}
+.sboxblue{
+    background-color: deepskyblue;
+}
+#tvlogo{
+    color: darkslategrey;
+    font-size: 200px;
+    /* margin: auto 190px; */
+}
+.sboxbl {
+    text-align: left;
+    width: 660px;
+}
+#cycle {
+    font-size: 200px ;
+    color: tomato;
+}
+#money{
+    font-size: 200px;
+    color: darkslategrey;
+}
